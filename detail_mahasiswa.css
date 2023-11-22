@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+        background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6NNNvS9SsIrW-Si9QEtUqzkH6eq73fgXU5Len0qrVNpdm15Qyz2vqqi5Zl8-f8MZ8Hj6mNUnffgZHANHG_FpuvOkWRd_Q0h_DSBrKHhFjG7nNF0Lpt9yph0_ygfFnUuudGUbRmuEPrpcPgs7eTTH3X36wo8x85Hy3sGafQ1LoT__7V0U37uErnRJIsA/s1280/WhatsApp%20Image%202022-10-17%20at%2014.12.28.jpeg');        
+        background-size: cover; /* Untuk menjaga gambar latar belakang selalu menutupi layar */
+        background-repeat: no-repeat; /* Untuk menghindari pengulangan gambar */
+        background-attachment: fixed; /* Opsi ini membuat gambar latar belakang tetap diam saat menggulir halaman */
+        background-position: center; /* Untuk mengatur posisi gambar latar belakang */
+}
+
+.container {
+    display: flex;
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+    backdrop-filter: blur(5px); /* Nilai blur dapat disesuaikan */
+    background-color: rgba(119, 184, 244, 0.5); /* Nilai alpha transparansi dapat disesuaikan */
+}
+
+.details {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.data {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.data label {
+    font-weight: bold;
+    color: #555;
+}
+
+.data span {
+    margin-left: 10px;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #2f6be4;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2280e6;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+

@@ -1,0 +1,161 @@
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    border: 3px solid;
+    text-align: left;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.7); /* warna putih transparan untuk latar belakang sel */
+}
+th{
+    border: 3px solid;
+    background-color: #ffcc00;
+}
+
+.button {
+    background-color: #ffcc00;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #ffcc00;
+}
+
+body {
+    background-image: url('audit.png');        
+    background-size: cover; /* Untuk menjaga gambar latar belakang selalu menutupi layar */
+    background-repeat: no-repeat; /* Untuk menghindari pengulangan gambar */
+    background-attachment: fixed; /* Opsi ini membuat gambar latar belakang tetap diam saat menggulir halaman */
+    background-position: center; /* Untuk mengatur posisi gambar latar belakang */
+}
+h3{
+    color: black;
+}
+.centered {
+    text-align: center; /* Untuk rata tengah secara horisontal */
+    vertical-align: middle; /* Untuk rata tengah secara vertikal */
+}
+
+form {
+    flex-direction: column;
+}
+
+#search {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ffcc00;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #ffcc00;
+    border: none;
+    color: white;            
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #ffcc00;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #ffcc00, #ffffcc);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin: 0 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+ul li a:hover {
+    color: #ffcc00;
+    background-color: white;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content p {
+    margin: 5px 0;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+  
